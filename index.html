@@ -52,15 +52,31 @@ READ HERE how to fully customize the messages shown to your members https://gith
         }
     </script>
 <style>
+/* Background and Text Color */
+body {
+    background-image: url('https://files.catbox.moe/z2godm.gif'); /* Replace 'your-background.gif' with the path to your actual GIF background image */
+    background-size: cover; /* Ensure background image covers entire page */
+    backdrop-filter: blur(20px); /* Apply blur effect to the background */
+    font-family: "Akkurat Vietnamese Black", sans-serif; /* Set font to Akkurat Vietnamese Black */
+    color: #fff; /* White text color for better readability */
+}
+
+/* Centered Box Styling */
+.centered-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%; /* Adjust the width of the centered box */
+    max-width: 500px; /* Set maximum width of the centered box */
+    padding: 20px;
+    border-radius: 20px; /* Rounded border around the centered box */
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+}
+
 /* Logo Styling */
 #serverIcon {
     border-radius: 15px; /* Rounded border around the logo */
-    margin-bottom: 10px; /* Adjust margin bottom */
-}
-
-/* Cinder text Styling */
-#serverTitle {
-    border-radius: 15px; /* Rounded border around the Cinder text */
     margin-bottom: 10px; /* Adjust margin bottom */
 }
 
@@ -69,17 +85,6 @@ READ HERE how to fully customize the messages shown to your members https://gith
     background-color: #d7801a; /* Changed button color to #d7801a */
     font-size: 18px; /* Increased font size for the verify button */
     border-radius: 20px; /* Rounded button */
-}
-
-/* Container Styling */
-body {
-    background-image: url('https://files.catbox.moe/z2godm.gif'); /* Replace 'your-background.gif' with the path to your actual GIF background image */
-    background-size: cover; /* Ensure background image covers entire page */
-    backdrop-filter: blur(30px); /* Increased blur effect */
-    font-family: "Akkurat Vietnamese Black", sans-serif; /* Set font to Akkurat Vietnamese Black */
-    color: #fff; /* White text color for better readability */
-    padding: 20px; /* Add some padding for the background */
-    border-radius: 20px; /* Rounded border around the content */
 }
 
 </style>
